@@ -1,0 +1,58 @@
+.dashboard {
+    padding: 20px;
+  }
+  h1{
+    text-align: center;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .content {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    margin: 10px 0;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .deleteButton {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
